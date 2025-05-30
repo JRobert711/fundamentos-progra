@@ -1,6 +1,6 @@
 '''
-Clase:        Bloque for y bloqe while
-Tema:         Listas
+Clase:        5
+Tema:         Bloque for y bloque while
 Ejercicio:    5.4.1
 Descripción:  Genera un número aleatorio entre 1 y 100 y pide al usuario que lo adivine.
 El programa debe seguir pidiendo números hasta que acierte. En cada

@@ -1,6 +1,6 @@
 '''
-Clase:        Bloque for y bloqe while
-Tema:         Listas
+Clase:        5
+Tema:         Bloque for y bloque while
 Ejercicio:    5.4.2
 Descripción:  Pide un número al usuario y suma sus dígitos hasta que quede un solo dígito. Ejemplo:
 Si el usuario ingresa 9875, entonces: 9+8+7+5 = 29 → 2+9 = 11 → 1+1 = 2.
