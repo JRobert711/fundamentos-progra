@@ -7,7 +7,7 @@ usuario, comprueba si la matriz cuadrada es
 simétrica respecto a su diagonal principal.
 
 Autor:        Julio Roberto Guardado Quijano 
-Fecha:        2025-06-11
+Fecha:        2025-06-13
 Estado:       [Terminado]
 '''
 n = int(input("Ingrese la dimensión de la matriz cuadrada: "))
@@ -18,13 +18,15 @@ for i in range(n):
     m.append(temp_m)
 
 # m = [[1,2,3],[2,5,0],[3,0,5]]
-counter = 0
-simetric = False
-for line in m:
-    if m[counter][counter + 1] == m[counter + 1][counter]:
-        simetric = True
-    else:
-        continue
+simetric = True
+for i in range(n):
+    for j in range(i + 1, n):  # solo revisa la mitad superior (sin incluir la diagonal)
+        if m[i][j] != m[j][i]:
+            simetric = False
+            break
+    if not simetric:
+        break
+
 if simetric == False:
     print("La matriz no es simétrica")
 else:
