@@ -1,0 +1,58 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram name="Página-1" id="MBaWzJ4jtINL3IXxMn0l">
+    <mxGraphModel dx="1816" dy="850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vp8_Vr7bSjgteWjK857K-2" value="&lt;font style=&quot;font-size: 40px;&quot;&gt;Libro&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=4;" parent="1" vertex="1">
+          <mxGeometry x="-370" y="490" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="vp8_Vr7bSjgteWjK857K-3" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;ID&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;Título&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;ISBN&lt;br&gt;Año de publicación&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=4;" parent="1" vertex="1">
+          <mxGeometry x="-370" y="630" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="vp8_Vr7bSjgteWjK857K-6" value="&lt;font style=&quot;font-size: 40px;&quot;&gt;Autor&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=4;" parent="1" vertex="1">
+          <mxGeometry x="70" y="480" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="vp8_Vr7bSjgteWjK857K-7" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;ID&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;Nombre&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;Nacionalidad&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=4;" parent="1" vertex="1">
+          <mxGeometry x="70" y="620" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="-VHJDLldTAQ2ESQwTd_C-1" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Préstamo&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=4;" parent="1" vertex="1">
+          <mxGeometry x="-380" y="890" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="-VHJDLldTAQ2ESQwTd_C-2" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Fecha de préstamo&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;ID&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;ID_libro&lt;br&gt;Fecha de devolución&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=4;" parent="1" vertex="1">
+          <mxGeometry x="-380" y="1050" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="-VHJDLldTAQ2ESQwTd_C-3" value="&lt;font style=&quot;font-size: 40px;&quot;&gt;Estudiante&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=4;" parent="1" vertex="1">
+          <mxGeometry x="40" y="910" width="230" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="-VHJDLldTAQ2ESQwTd_C-4" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;ID&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;Nombre&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;Grado&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=4;" parent="1" vertex="1">
+          <mxGeometry x="40" y="1140" width="230" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="-VHJDLldTAQ2ESQwTd_C-5" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="vp8_Vr7bSjgteWjK857K-3" target="vp8_Vr7bSjgteWjK857K-7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-90" y="690" as="sourcePoint" />
+            <mxPoint x="-40" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-VHJDLldTAQ2ESQwTd_C-6" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="-VHJDLldTAQ2ESQwTd_C-1" target="vp8_Vr7bSjgteWjK857K-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-90" y="690" as="sourcePoint" />
+            <mxPoint x="-40" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-VHJDLldTAQ2ESQwTd_C-7" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="-VHJDLldTAQ2ESQwTd_C-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="900" as="sourcePoint" />
+            <mxPoint x="140" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-VHJDLldTAQ2ESQwTd_C-9" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="-VHJDLldTAQ2ESQwTd_C-2" target="-VHJDLldTAQ2ESQwTd_C-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="1050" as="sourcePoint" />
+            <mxPoint x="80" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

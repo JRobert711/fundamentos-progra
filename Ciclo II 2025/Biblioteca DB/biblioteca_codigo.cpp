@@ -845,9 +845,11 @@ void BibliotecaDB::menuPrestamos() {
         }
     }
 }
+#include "biblioteca.h"
 
 int main() {
     cout << "=== SISTEMA DE GESTION DE BIBLIOTECA ===" << endl;
+    cout << "Base de datos normalizada en 3FN" << endl;
     cout << "Cargando datos..." << endl;
     
     BibliotecaDB biblioteca;
