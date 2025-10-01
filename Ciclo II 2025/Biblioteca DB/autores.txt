@@ -1,0 +1,5 @@
+10001,James Clear,Estadounidense
+10002,J.K. Rowling,Británica
+10003,Isabel Allende,Chilena
+10004,Mario Vargas Llosa,Peruano
+10005,Julio Cortázar,Argentino
